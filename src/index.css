@@ -1,0 +1,50 @@
+body {
+  font-family: monospace;
+  background: linear-gradient(to right, teal , navy);
+}
+
+.heading {
+  color: white;
+  font-size: 50px;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.form {
+  margin: 100px;
+}
+
+.input {
+  margin: 10px;
+  font-family: monospace;
+  font-size: 30px;
+  color: #3160CD;
+}
+
+.button {
+  background: linear-gradient(to right, magenta, purple);
+  border-color: white;
+  border-radius: 6px;
+  margin: 10px;
+  font-family: monospace;
+  font-size: 30px;
+  color: white;
+}
+
+.button:hover{
+  background: white;
+  color: purple;
+  border-color: purple;
+  cursor: pointer;
+}
+
+.images {
+  width: auto;
+}
+
+.image {
+  margin: 50px;
+  width: 27%;
+  height: 300px;
+  box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, .1);
+}
